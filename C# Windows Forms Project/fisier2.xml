@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTable>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Clienti" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Clienti">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" minOccurs="0" />
+                <xs:element name="NumeClient" type="xs:string" minOccurs="0" />
+                <xs:element name="SumaImprumutata" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DurataInLuni" type="xs:int" minOccurs="0" />
+                <xs:element name="DobandaAnuala" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <DocumentElement>
+      <Clienti diffgr:id="Clienti1" msdata:rowOrder="0">
+        <Id>101</Id>
+        <NumeClient>Vlad Carlos</NumeClient>
+        <SumaImprumutata>2300</SumaImprumutata>
+        <DurataInLuni>15</DurataInLuni>
+        <DobandaAnuala>6</DobandaAnuala>
+      </Clienti>
+      <Clienti diffgr:id="Clienti2" msdata:rowOrder="1">
+        <Id>120</Id>
+        <NumeClient>Darius Mihai</NumeClient>
+        <SumaImprumutata>3200</SumaImprumutata>
+        <DurataInLuni>12</DurataInLuni>
+        <DobandaAnuala>6</DobandaAnuala>
+      </Clienti>
+      <Clienti diffgr:id="Clienti3" msdata:rowOrder="2">
+        <Id>123</Id>
+        <NumeClient>Sami Andrei</NumeClient>
+        <SumaImprumutata>1250</SumaImprumutata>
+        <DurataInLuni>5</DurataInLuni>
+        <DobandaAnuala>2</DobandaAnuala>
+      </Clienti>
+    </DocumentElement>
+  </diffgr:diffgram>
+</DataTable>

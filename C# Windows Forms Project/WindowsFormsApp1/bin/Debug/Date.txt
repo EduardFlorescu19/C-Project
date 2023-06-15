@@ -1,0 +1,5 @@
+Moise,1200
+Popescu,2000
+Andone,2500
+Ramniceanu,1900
+Grigore,800
